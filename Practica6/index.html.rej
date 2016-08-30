@@ -1,9 +1,0 @@
-diff a/Practica6/index.html b/Practica6/index.html	(rejected hunks)
-@@ -0,6 +0,7 @@
- <!DOCTYPE html>
- <html lag="es">
-   <head>
-+    <title>Landing Name</title>
-     <meta charset="utf-8"/>
-     <meta name="description" content="Landing page practice"/>
-     <meta name="keywords" content="html5, css3, landing, hero image, background, practice, example"/>
