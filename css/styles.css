@@ -5,17 +5,17 @@ body{
   padding:0%;
 }
 
-body,header,nav,section,aside,footer{
+header,nav,section,aside,footer{
   margin=0;
   padding=0;
 }
 
 h1,h2,h3,h4,h5,h6{
-  margin=0;
-  padding=0;
+  margin:0;
+  padding:0;
   font-size:100%;
   font:15px normal;
-  display:inline;
+  display:inline-flex;
 }
 
 figure,figcaption,img{
@@ -28,7 +28,12 @@ form,input{
   padding=0;
 }
 
-div,ul,li,p{
+div,blockquote{
+  margin:0;
+  padding:0;
+}
+
+ul,ol,li,p,a{
   margin:0;
   padding:0;
 }
@@ -47,8 +52,6 @@ div,ul,li,p{
 }
 
 h1{
-  display:inline-flex;
-  margin:0;
   margin-left:15px;
   padding-top:8px;
   height:42px;
@@ -61,7 +64,6 @@ h1{
   width:50%;
   height:50px;
   margin-right:5px;
-  
 }
 
 .bar{
@@ -73,14 +75,11 @@ li#opli{
   display:inline-flex;
   height:50px;
   width:20%;
-  margin:0;
   transition: 1.2s;
   text-align:center;
-  
 }
 
 a#lbar{
-  margin:0;
   padding-top:13px;
   height:34px;
   width:100%;
@@ -102,11 +101,12 @@ a#lbar:hover{
 
 section#desktop{
   display:flex;
-  position:relative;
   background-image:url(../img/placeholder.jpg);
-  background-attachment:fixed;
   background-size:cover;
   background-repat:no-repeat;
+  background-attachment:fixed;
+  background-position:center;
+  position:relative;
   height:100vh;
 }
 
