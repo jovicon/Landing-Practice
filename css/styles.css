@@ -119,7 +119,7 @@ section.desktop{
   justify-content:center;
 }
 
-h1.welcome{
+h2.welcome{
   outline:solid 10px #06000a;
   outline-offset:20px;
   font:bold 64px cafenerom;
@@ -132,4 +132,14 @@ h1.welcome{
 
 .spaceblock{
   height:50px;
+}
+
+img.logo{
+  width:200px;
+  height:200px;
+}
+
+img.block{
+  width:150px;
+  height:150px;
 }
