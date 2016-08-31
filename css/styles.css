@@ -71,7 +71,7 @@ h1{
   text-align:right;
 }
 
-li.opli{
+li.itembar{
   display:inline-flex;
   height:50px;
   width:20%;
@@ -79,7 +79,7 @@ li.opli{
   text-align:center;
 }
 
-a.lbar{
+a.actionbar{
   padding-top:13px;
   height:34px;
   width:100%;
@@ -90,11 +90,11 @@ a.lbar{
   font-family:square;
 }
 
-li.opli:hover{
+li.itembar:hover{
   background:#e6e6e8;
 }
 
-a.lbar:hover{
+a.actionbar:hover{
   color:#06000a;
   transform:scale(1.05)
 }
@@ -110,7 +110,7 @@ section.desktop{
   height:100vh;
 }
 
-.bg{
+.heroimage{
   display:flex;
   height:100vh;
   background-color:rgba(34,38,85,0.3);
@@ -119,7 +119,7 @@ section.desktop{
   justify-content:center;
 }
 
-.welcome{
+h1.welcome{
   outline:solid 10px #06000a;
   outline-offset:20px;
   font:bold 64px cafenerom;
@@ -130,6 +130,6 @@ section.desktop{
 .main{
 }
 
-.spacebar{
+.spaceblock{
   height:50px;
 }
