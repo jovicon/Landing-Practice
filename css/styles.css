@@ -28,7 +28,7 @@ form,input{
   padding=0;
 }
 
-div,blockquote{
+div,blockquote,span{
   margin:0;
   padding:0;
 }
