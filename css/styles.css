@@ -127,12 +127,14 @@ h2.welcome{
   text-shadow:10px 10px 10px black;
 }
 
-.main{
-}
-
 .spaceblock{
   height:50px;
 }
+
+.main{
+  width:100%;
+}
+
 
 img.logo{
   width:200px;
