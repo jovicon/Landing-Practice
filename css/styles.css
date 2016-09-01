@@ -129,19 +129,54 @@ h2.welcome{
 
 .spaceblock{
   height:50px;
+  background-color:#06000a;
 }
 
 .main{
   width:100%;
+  background-color:#06000a;
+  color:white;
 }
 
+h2{
+  font:bold 36px cafenerom;
+  width:60%;
+  margin:0px 20%;
+  text-align:center;
+  justify-content:center;
+}
+
+figure.main{
+  display:inline-block;
+  height:250px;
+  width:250px;
+}
 
 img.logo{
-  width:200px;
-  height:200px;
+  display:inline-block;
+  width:80%;
+  height:80%;
+  margin:0 10%;
+  justify-content:center;
+}
+
+figcaption{
+  height:20%;
+  text-align:center;
+}
+
+.texto{
+  font:20px ;
 }
 
 img.block{
   width:150px;
   height:150px;
+}
+
+blockquote{
+  display:inline-block;
+  font:bold 20px titilliumweb, arial;
+  width:70%;
+  border:3px solid;
 }
