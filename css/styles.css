@@ -190,8 +190,9 @@ figcaption{
 }
 
 img.block{
-  width:150px;
-  height:150px;
+  width:80px;
+  height:80px;
+  margin-top:35px;
 }
 
 blockquote{
@@ -209,20 +210,33 @@ section.services{
 
 article {
   width:25%;
-  border:solid;
   margin:1.5em;
   padding:20px;
   float:left;
   text-align:center;
 }
 
-article img { 
-  margin:15px auto;
+article h3 {
+  font:1.5em cafenerom, helvetica;
 }
 
-article h3 {
+article img { 
+  transition:1.6s;
 }
 
 article p {
-  
+  font:1.1em helvetica,arial,georgia;
+}
+
+.circle{
+  width:150px;
+  height:150px;
+  border:4px solid #ff0066;
+  border-radius:50%;
+  margin:15px auto;
+  transition:1.5s;
+}
+
+article img:hover{
+  transform:scale(1.15);
 }
